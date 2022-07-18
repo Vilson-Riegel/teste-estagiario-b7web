@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  display: flex;
+  max-width: 1400px;
+  margin: 30px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 30px;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.menu a {
+  color: #ffffff;
+}
+
+.cor a {
+  color: #D7D9DC;
+}
+
+.detalhe {
+  height: 28px;
+  width: 1px;
+  background: #ccc;
+}
+
+.menu a:hover {
+  color: #1ED760;
+}
+
+main {
+  background: #993399;
+}
+
+.container {
+  max-width: 1600px;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.imagem img {
+  width: 500px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texto .chamada {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.texto h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.texto .descricao {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.texto .button {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 40px;
+  width: fit-content;
+  border-radius: 100px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.texto p {
+  font-weight: 500;
+}
+
+.texto p a {
+  text-decoration: underline;
+}
+
+section {
+  height: 98vh;
+  background-color: #2941AB;
+  background-image: url('/assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texto-free {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #76d961;
+}
+
+.texto-free .chamada-free {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.texto-free h2 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.texto-free .descricao-free {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.texto-free .button-free {
+  background-color: #76d961;
+  color: #2b46ab;
+  text-align: center;
+  padding: 20px 40px;
+  width: fit-content;
+  border-radius: 100px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.texto-free p {
+  font-weight: 500;
+}
+
+.texto-free p a {
+  text-decoration: underline;
+}
+
+footer {
+  color: #ffffff;
+  max-width: 1600px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+footer p {
+  padding: 5px;
+}
+
+footer p:hover {
+  color: #1ED760;
+}
